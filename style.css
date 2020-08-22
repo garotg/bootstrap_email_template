@@ -1,0 +1,153 @@
+.container {
+    height: 100%;
+}
+
+.no-marg.no-marg {
+    margin: 0px;
+}
+
+.no-pad.no-pad {
+    padding: 0px;
+}
+
+.search-section {
+    background-color: #f4f3ef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search {
+    margin-bottom: 30px;
+}
+
+.compose-section {
+    background-color: #423e37;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.email-section {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.email {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    background-color: transparent;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.to_from {
+    text-align: left;
+    font-size: small;
+}
+
+.h2 {
+    color: black;
+}
+
+.text-box {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.textarea::placeholder {
+    text-align: right;
+}
+
+.one-line-wrap {
+    white-space: nowrap;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myButton.myButton {
+    background-color: #e3b23c;
+    border-radius: 6px;
+    display: block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 55px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:not(:first-of-type) {
+    padding-top: 1em;
+}
+
+li:not(:last-of-type) {
+    padding-bottom: 1em;
+}
+
+.stacking-col-div {
+    height: 100%;
+}
+
+.links {
+    color: #ffffff;
+    display: block;
+    line-height: 2.5em;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.fa-user-circle {
+    padding-right: 10px;
+}
+
+.first-box {
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.second-box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(32, 30, 30, 0.15);
+}
+
+.third-box {
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.center-section-box.search-section-box {
+    color: rgb(133, 128, 128);
+    text-decoration: none;
+}
+
+.date-time {
+    text-align: right;
+}
+
+.quotes {
+    padding-top: 5px;
+}
